@@ -26,7 +26,7 @@ Echo 3) IP Lookup
 echo.
 Echo 4) Port Sniffer
 echo.
-echo 5) Discord
+echo 5) Github
 Set /p cho=
 goto %cho%
 :1
@@ -46,5 +46,5 @@ Start https://dnschecker.org/port-scanner.php
 Set /p cho=
 goto %cho%
 :5
-
+Start https://www.github.com/0xj0n1
 
