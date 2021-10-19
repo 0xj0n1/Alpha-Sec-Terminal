@@ -27,6 +27,8 @@ echo.
 Echo 4) Port Sniffer
 echo.
 echo 5) Github
+echo.
+echo 6) Duckduckgo
 Set /p cho=
 goto %cho%
 :1
@@ -47,4 +49,8 @@ Set /p cho=
 goto %cho%
 :5
 Start https://www.github.com/0xj0n1
+Set/p cho=
+goto %cho%
+:6
+Start https://duckduckgo.com
 
